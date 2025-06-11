@@ -2,23 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Golden Flame: Co-op Puzzle Adventure</title>
+    <meta
+      name="description"
+      content="Golden Flame is a free co-op puzzle adventure game. Explore a magical fire temple solo or with a friend. Solve fiery puzzles and relight the ancient Golden Flame!"
+    />
+    <meta name="author" content="Golden Flame Studios" />
+    <meta
+      name="keywords"
+      content="co-op puzzle game, browser game, free puzzle adventure, play with a friend, fire temple game, online co-op, golden flame game, teamwork puzzle, play in browser, multiplayer logic game"
+    />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="robots" content="index, follow" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.jpg" />
     <link rel="stylesheet" href="./scss/styles.scss" />
   </head>
   <body>
     <load ="partials/header.html" />
-
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
-
+    <main>
+      <load ="partials/hero.html" />
+      <load ="partials/about.html" />
+      <load ="partials/how-to-play.html" />
+      <load ="partials/gallery.html" />
+      <load ="partials/characters.html" />
+      <load ="partials/faq.html" />
+      <load ="partials/contact.html" />
+      <load ="partials/cookies-modal.html" />
+    </main>
+    <load ="partials/footer.html" />
     <script type="module" src="./main.js"></script>
   </body>
 </html>

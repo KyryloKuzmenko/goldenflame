@@ -1,18 +1,35 @@
 @import './header.scss';
-@import './vite-promo.scss';
+@import './hero.scss';
+@import './about.scss';
+@import './how-to-play.scss';
+@import './gallery.scss';
+@import './characters.scss';
+@import './faq.scss';
+@import './contact.scss';
+@import './footer.scss';
+@import './cookies-modal.scss';
+@import './cookies.scss';
+@import './privacy.scss';
+@import './terms.scss';
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+
+body {
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+h1,
+h2 {
+  font-weight: 900;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+h3 {
+  font-weight: 700;
+}
+
+p,
+span,
+li,
+a {
+  font-weight: 400;
 }
