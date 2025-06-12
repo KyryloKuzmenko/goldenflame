@@ -10,6 +10,7 @@
   height: 60px;
   position: relative;
   @include media(desktop) {
+    height: 80px;
     display: flex;
     padding-left: 70px;
     padding-right: 70px;
