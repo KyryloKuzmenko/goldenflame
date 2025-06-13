@@ -1,0 +1,54 @@
+.play-now-content-wrap {
+  background-image: url('../img/mobile/play-now.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 60px;
+  height: 100%;
+  min-height: 720px;
+  @include media(desktop) {
+    min-height: 400px;
+    background-image: url('../img/desktop/play-desktop-now.png');
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
+
+.play-now-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include media(desktop) {
+    width: 481px;
+    align-items: flex-start;
+  }
+}
+
+.play-now-title {
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  @include media(desktop) {
+    font-size: 32px;
+    text-align: left;
+  }
+}
+
+.play-now-text {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 22px;
+}
+
+.play-now-btn {
+  width: 229px;
+  height: 72px;
+  margin-top: 22px;
+}

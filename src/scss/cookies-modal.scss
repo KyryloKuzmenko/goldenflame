@@ -35,7 +35,7 @@
 }
 
 .cookies-modal-text {
-  font-family: "Baloo 2", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
@@ -64,7 +64,7 @@
   width: 174px;
   height: 54px;
   box-shadow: 0 3px 12px 0 rgba(74, 58, 255, 0.18);
-  background: #002919;
+  background: #180000;
 
 @include media(desktop) {
   order: 1;
@@ -106,10 +106,10 @@
 
 .close-cookies-modal-btn {
   position: absolute;
-  top: 26px;
-  right: 28px;
-  width: 14px;
-  height: 14px;
+  top: 22px;
+  right: 24px;
+  width: 16px;
+  height: 16px;
   @include media(desktop) {
     position: static;
     top: 0;

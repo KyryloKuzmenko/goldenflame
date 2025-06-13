@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '.backdrop-list-item, .hidden-list-item'
   );
 
-  // scroll-spy — активный пункт по прокрутке
+
   window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section[id]');
     const scrollY = window.scrollY;
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // клик по пункту меню
+
   links.forEach(link => {
     link.addEventListener('click', () => {
       links.forEach(item => item.classList.remove('active'));
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // установка активного при загрузке
+
   const currentPath = window.location.pathname;
   const currentHash = window.location.hash;
 

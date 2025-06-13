@@ -1,0 +1,63 @@
+.privacy-content-wrap,
+.cookies-content-wrap,
+.terms-content-wrap {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background: linear-gradient(360deg, #180000 0%, #7e0101 100%);
+  @include media(desktop) {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 80px;
+  }
+}
+
+.privacy-title,
+.cookies-title,
+.terms-title {
+  font-weight: 700;
+font-size: 22px;
+line-height: 1.09091;
+text-align: center;
+color: #fff;
+}
+
+
+.privacy-subtitle,
+.cookies-subtitle,
+.terms-subtitle {
+  font-weight: 700;
+font-size: 18px;
+color: #fff;
+}
+
+.privacy-text,
+.privacy-link,
+.cookies-text,
+.cookies-link,
+.terms-text,
+.terms-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.privacy-link,
+.cookies-link,
+.terms-link {
+  text-decoration: underline;
+}
+
+
+.privacy-content,
+.cookies-content,
+.terms-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.privacy-list-item,
+.cookies-list-item,
+.terms-list-item {
+  display: flex;
+}
